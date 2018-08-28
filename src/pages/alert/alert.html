@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Alert</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="action-alert-basic-page">
+
+  <button class="ion-alert-button-one" ion-button block (click)="showAlert()">
+    Show Alert
+  </button>
+
+  <button class="ion-alert-button-two" ion-button block (click)="showPrompt()">
+    Show Prompt Alert
+  </button>
+
+  <button class="ion-alert-button-thr" ion-button block (click)="showConfirm()">
+    Show Prompt Alert
+  </button>
+
+  <button class="ion-alert-button-fou" ion-button block (click)="doRadio()">
+    Show Radio Alert
+  </button>
+  <button class="ion-alert-button-fiv" ion-button block (click)="showCheckbox()">
+    Show Checkbox Alert
+  </button>
+
+</ion-content>
