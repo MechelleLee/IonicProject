@@ -7,6 +7,11 @@ import { ListPage } from '../pages/list/list';
 import { ActionsheetPage } from "../pages/actionsheet/actionsheet";
 import { AlertPage } from "../pages/alert/alert";
 import { BadgePage } from "../pages/badge/badge";
+import { ButtonPage } from "../pages/button/button";
+import { ComponentButtonsPage } from "../pages/component-buttons/component-buttons";
+import { CardPage } from "../pages/card/card";
+import { CheckBoxPage } from "../pages/check-box/check-box";
+import { DateTimePage } from "../pages/date-time/date-time";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -36,7 +41,12 @@ export class MyApp {
       { title: 'My First List', component: ListPage },
       { title: 'Action Sheets', component: ActionsheetPage },
       { title: 'Alert', component: AlertPage },
-      { title: 'Badge', component: BadgePage }
+      { title: 'Badge', component: BadgePage },
+      { title: 'Buttons', component: ButtonPage },
+      { title: 'Component Buttons', component: ComponentButtonsPage },
+      { title: 'Cards', component: CardPage },
+      { title: 'Check Box', component: CheckBoxPage },
+      { title: 'Date Time', component: DateTimePage }
     ];
   }
 
